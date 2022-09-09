@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <title>{{ title if title else metadata.title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/index.css" rel="stylesheet">
+</head>
+
+<body>
+  {% include "header.njk" %}
+
+  <main class="relative flex justify-center mx-auto max-w-8xl sm:px-2 lg:px-8 xl:px-12">
+    {% include "navigation.njk" %}
+
+    <div class="flex-auto max-w-2xl min-w-0 px-4 py-10 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16">
+      <article class="">
+        <header class="">
+          <p class="text-base font-medium text-slate-500">
+            {{ section }}
+          </p>
+
+          <h1 class="text-3xl font-bold tracking-tight text-slate-900">
+            {{ title }}
+          </h1>
+        </header>
+
+        {% if intro %}
+          <p class="mt-2 text-xl text-slate-600">
+            {{ intro }}
+          </p>
+        {% endif %}
+
+        {% if show_video_tour %}
+          {% include "video_tour.njk" %}
+        {% endif %}
+
+        {% if show_quick_links %}
+          {% include "quick_links.njk" %}
+        {% endif %}
+
+        <div class="mt-8 prose prose-slate max-w-none prose-headings:font-semibold prose-headings:tracking-tight prose-lead:text-slate-500 prose-a:font-semibold prose-a:underline prose-pre:bg-slate-900">
+          {{ content | safe }}
+        </div>
+
+        {% include 'content_footer.njk' %}
+      </article>
+
+      {% include 'content_navigation.njk' %}
+    </div>
+  </main>
+</body>
+</html>

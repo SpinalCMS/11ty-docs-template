@@ -1,0 +1,19 @@
+{
+  "name": "11ty-docs-template",
+  "version": "1.0.0",
+  "description": "A minimal Bridgetown template for a documentation site using Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve & npx tailwindcss -i src/assets/css/index.css -c tailwind.config.js -o _site/index.css --watch",
+    "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production npx tailwindcss -i src/assets/css/index.css -c tailwind.config.js -o _site/index.css --minify"
+  },
+  "author": "Spinal CMS Developers",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.7",
+    "tailwindcss": "^3.1.8"
+  }
+}
