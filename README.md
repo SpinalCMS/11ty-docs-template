@@ -56,6 +56,7 @@ To change title, description, etc. Update files in ``src/_data``.
 ## Related repo's
 - [Documentation theme built with Tailwind CSS](https://github.com/SpinalCMS/docs-template)
 - [Bridgetown documentation template using Tailwind CSS](https://github.com/SpinalCMS/bridgetown-docs-template)
+- [Astro documentation template using Tailwind CSS](https://github.com/SpinalCMS/astro-docs-template)
 
 
 ## Contributing
