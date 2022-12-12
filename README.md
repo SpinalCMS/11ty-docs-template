@@ -2,8 +2,7 @@
 
 An 11ty documentation site theme, built with Tailwind CSS.
 
-
-<img src="https://user-images.githubusercontent.com/988051/183708900-d2945c3b-8ff5-4aff-a3c1-98335cc90277.jpg" alt="preview of the Bridgetown documentation theme, built with Tailwind CSS" />
+<img src="https://github.com/spinalcms/11ty-docs-template/blob/main/11ty-docs-preview.jpg?raw=true" alt="preview of the Eleventy documentation theme, built with Tailwind CSS" />
 
 
 ## Sponsored By [Spinal](https://spinalcms.com/)
