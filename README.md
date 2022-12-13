@@ -5,9 +5,9 @@ An 11ty documentation site theme, built with Tailwind CSS.
 <img src="https://github.com/spinalcms/11ty-docs-template/blob/main/11ty-docs-preview.jpg?raw=true" alt="preview of the Eleventy documentation theme, built with Tailwind CSS" />
 
 
-## Sponsored By [Spinal](https://spinalcms.com/)
+## Sponsored By [Spinal](https://spinalcms.com/cms-for-11ty/)
 
-<a href="https://spinalcms.com/" target="_blank">
+<a href="https://spinalcms.com/cms-for-11ty/" target="_blank">
   <img src="https://user-images.githubusercontent.com/988051/183079316-af747ef2-42a9-47d8-9a0c-488ed4b6a689.jpg" alt="Spinal CMS logo" width="200"/>
 </a>
 
